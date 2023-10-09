@@ -1,50 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
 /* header section design */
 .header_design {
  background-color: rgba(222, 85, 122, 0.115);
  display: flex;
  padding-top: 50px;
- padding-left: 70px;
- padding-right: 70px;
+ padding-left: 200px;
+ padding-right: 100px;
+}
+.writing_part{
+    padding-top: 100px;
 }
 .img_design{
     height: 600px;
-    width: 450px;
-    padding-left: 150px;
+    width: 500px;
+     margin-left: 90px;
 }
-/* .writing_part{
-margin: 30px;
-}  */
-
 .btn{
     color: white;
-    background-color: rgba(223, 92, 92, 0.818);
-    size: 150px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: rgba(230, 83, 83, 0.827);
+    size: 165px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 25px;
     border-radius: 5px;
     border-color: none;
+    border: 0;
+    font-weight: bolder;
 }
 
-
-
-
-
-
-
-
-
-
-/* 
-.heading{
- height: 708px;
- width: 288px;
- size: 0vmax;
- font-weight: bolder;
+/* main   section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
-
-.para{
-    height: 634px;
-    width: 90px;
-} */
+main section{
+    margin-top: 130px;
+}
+/* instagram section design */
+.insta_container{
+    display: flex;
+}
+.insta{
+    gap: 24px;
+    padding: 30px;
+}
