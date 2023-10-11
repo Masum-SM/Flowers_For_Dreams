@@ -14,41 +14,179 @@
  padding-right: 100px;
 }
 .writing_part{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .img_design{
     height: 600px;
     width: 500px;
-     margin-left: 90px;
+    margin-left: 90px;
 }
 .btn{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border-color: none;
+    border: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+
+}
+/* primary design*/
+ .primary-section{
+    max-width: 1100px;
+   
+} 
+.section-tittle{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.section-dec{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin: 20px;
+}
+
+/* main   section style */
+/* main{
+    max-width: 1140px;
+    margin: 0 auto;
+} */
+main section{
+    margin-top: 130px;
+}
+
+
+/* instagram section design */
+.insta_container{
+    display: flex;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1100px;
+    height: 449px;
+
+
+}
+.insta{
+    /* gap: 10px;
+    padding: 20px;
+    padding-right: 50px; */
+    height: 242;
+    width: 296;
+    padding: 2px;
+}
+/* subscribe input section design */
+.input-section{
+    background-image: url("images/Rectangle\ 9.png");
+    width: 1100px;
+    height: 449px;
+    justify-content: center;
+}
+.section-heading{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 100px;
+}
+.mail-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    gap: 11px;
+    /* border-radius: 8px; */
+    /* background: #FFF; */
+   
+}
+.int-sec{
+    color: rgba(39, 39, 39, 0.60);
+    padding-left: 22px;
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+}
+.btn-sub{
     color: white;
-    background-color: rgba(230, 83, 83, 0.827);
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
     size: 165px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-top: 25px;
-    border-radius: 5px;
     border-color: none;
-    border: 0;
     font-weight: bolder;
 }
-
-/* main   section style */
-main{
-    max-width: 1140px;
+/* footer design */
+footer{
+    text-align: center;
+    background: #111010;
+    max-width: 1100px;
+    height: 449px;
     margin: 0 auto;
-}
-main section{
+    padding-top: 180px;
     margin-top: 130px;
 }
-/* instagram section design */
-.insta_container{
-    display: flex;
+.footer-heading{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.insta{
-    gap: 24px;
-    padding: 30px;
+.first-para{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.last-para{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
