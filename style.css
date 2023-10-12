@@ -23,7 +23,7 @@
 }
 .btn{
     color: #FFF;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -45,7 +45,7 @@
 .featured-name{
     color: #272727;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -70,7 +70,7 @@
 .section-dec{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -120,7 +120,7 @@ main section{
 .section-heading{
     color: #272727;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -141,7 +141,7 @@ main section{
     color: rgba(39, 39, 39, 0.60);
     padding-left: 22px;
     /* text-align: center; */
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -179,7 +179,7 @@ footer{
 }
 .footer-heading{
     color: #E55473;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -188,7 +188,7 @@ footer{
 .first-para{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -199,7 +199,7 @@ footer{
 .last-para{
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -232,7 +232,7 @@ footer{
 .heading{
     color: rgb(107, 25, 78);
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-family:cursive;
     font-size: 29px;
     font-style: normal;
     font-weight: 800;
