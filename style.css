@@ -23,7 +23,7 @@
 }
 .btn{
     color: #FFF;
-    font-family: Lato;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -41,11 +41,23 @@
     margin-top: 25px;
 
 }
+/* feature */
+.featured-name{
+    color: #272727;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 13px;
+}
 /* primary design*/
- .primary-section{
+ /* .primary-section{
     max-width: 1100px;
    
-} 
+}  */
 .section-tittle{
     color: #272727;
     text-align: center;
@@ -58,7 +70,7 @@
 .section-dec{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -79,11 +91,12 @@ main section{
 /* instagram section design */
 .insta_container{
     display: flex;
-    gap: 20px;
-    padding-left: 50px;
+    gap: 24px;
+    padding-left: 220px;
     padding-right: 50px;
     width: 1100px;
     height: 449px;
+    padding-top: 50px;
 
 
 }
@@ -98,14 +111,16 @@ main section{
 /* subscribe input section design */
 .input-section{
     background-image: url("images/Rectangle\ 9.png");
-    width: 1100px;
+    width: 1450px;
     height: 449px;
-    justify-content: center;
+    margin-left: 230px;
+    border: none;
+
 }
 .section-heading{
     color: #272727;
     text-align: center;
-    font-family: Lato;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -126,8 +141,8 @@ main section{
     color: rgba(39, 39, 39, 0.60);
     padding-left: 22px;
     /* text-align: center; */
-    font-family: Lato;
-    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -144,6 +159,7 @@ main section{
     border-radius: 8px;
     background: #E55473;
     border: 0;
+    font-size: 18px;
     size: 165px;
     padding-left: 30px;
     padding-right: 30px;
@@ -156,7 +172,6 @@ main section{
 footer{
     text-align: center;
     background: #111010;
-    max-width: 1100px;
     height: 449px;
     margin: 0 auto;
     padding-top: 180px;
@@ -164,7 +179,7 @@ footer{
 }
 .footer-heading{
     color: #E55473;
-    font-family: Lato;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -173,7 +188,7 @@ footer{
 .first-para{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-family: Lato;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -184,7 +199,7 @@ footer{
 .last-para{
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-family: Lato;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -197,4 +212,45 @@ footer{
     display: flex;
     justify-content: center;
     gap: 60px;
+}
+/* bonus part(order part) */
+.form{
+    padding-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+.form  img{
+    margin-top: 3%;
+    padding-left: 10%;
+
+}
+.order{
+    background-image: url(images/green.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.heading{
+    color: rgb(107, 25, 78);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 100px;
+}
+.h-sec{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.input-part{
+    padding: 7px;
+    border: #FFF;
+    border-radius: 9px;
+    box-shadow: 3px 6px rgb(134, 133, 133);
+    margin-top: 9px;
+    width: 270px;
+    height: 45px;
 }
