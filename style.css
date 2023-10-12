@@ -190,3 +190,11 @@ footer{
     font-weight: 400;
     line-height: normal;
 }
+/* deal section design */
+.deal-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
