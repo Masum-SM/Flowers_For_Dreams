@@ -5,6 +5,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    font-family: 'Lato', sans-serif;
+}
 /* header section design */
 .header_design {
  background-color: rgba(222, 85, 122, 0.115);
@@ -111,6 +114,7 @@ main section{
 /* subscribe input section design */
 .input-section{
     background-image: url("images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
     width: 1450px;
     height: 449px;
     margin-left: 230px;
@@ -168,43 +172,6 @@ main section{
     border-color: none;
     font-weight: bolder;
 }
-/* footer design */
-footer{
-    text-align: center;
-    background: #111010;
-    height: 449px;
-    margin: 0 auto;
-    padding-top: 180px;
-    margin-top: 130px;
-}
-.footer-heading{
-    color: #E55473;
-    font-family: Lato;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-.first-para{
-    color: rgba(255, 255, 255, 0.90);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-.last-para{
-    color: rgba(255, 255, 255, 0.40);
-    text-align: center;
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 /* deal section design */
 .deal-section{
     border-radius: 8px;
@@ -253,4 +220,41 @@ footer{
     margin-top: 9px;
     width: 270px;
     height: 45px;
+}
+/* footer design */
+footer{
+    text-align: center;
+    background: #111010;
+    height: 449px;
+    margin: 0 auto;
+    padding-top: 180px;
+    /* margin-top: 130px; */
+}
+.footer-heading{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.first-para{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.last-para{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
